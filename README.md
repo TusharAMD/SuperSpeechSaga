@@ -1,7 +1,7 @@
 # Super Speech Saga
 ## Bring game characters to real life
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Uws-0axWJnY/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![SuperSpeechSaga](https://i.ibb.co/5svVSqH/Super-Speech-Saga-0-2-screenshot.png)](https://youtu.be/Uws-0axWJnY)
 
 ## INSTALLATION
 1. Clone the repository
