@@ -23,4 +23,5 @@ Welcome to SuperSpeechSaga repository! Here, we're dedicated to crafting thrilli
    ```
 
 ## Part of Girlscript Summer of Code 2024
-![image](https://github.com/TusharAMD/SuperSpeechSaga/assets/59115865/3d3f4c6c-e933-456d-b95d-d342d275861f)
+<img width="200px" src = https://i.ibb.co/gF9Pvd4/image.png](https://github.com/TusharAMD/SuperSpeechSaga/assets/59115865/3d3f4c6c-e933-456d-b95d-d342d275861f)></img>
+
