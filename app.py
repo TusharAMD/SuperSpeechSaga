@@ -16,6 +16,7 @@ pygame.init()
 # Gemini LLM
 with open('config_keys.json') as f:
     config = json.load(f)
+
 api_key = config['GOOGLE_API_KEY']
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-pro')
