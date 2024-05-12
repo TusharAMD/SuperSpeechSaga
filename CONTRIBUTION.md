@@ -6,6 +6,7 @@ We are happy to welcome all the contributions from anyone willing to improve/add
 Thank you for helping out and remember, **no contribution is too small.**
 
 Please note we have a [code of conduct](CODE_OF_CONDUCT.md)  please follow it in all your interactions with the project.
+
 <br>
 
 ## 🔁 Ways to Contribute
@@ -16,6 +17,8 @@ There are several ways to contribute to our project:
 2. Fixing issues and submitting pull requests.
 3. Improving documentation.
 4. Providing feedback and suggestions.
+
+<br>
 
 ## 📈 Development Workflow
 
