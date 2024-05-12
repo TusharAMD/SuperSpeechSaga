@@ -26,6 +26,14 @@ Welcome to the cutting-edge realm of SuperSpeechSaga, where we're reshaping the 
    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
 </p>
 
+## 🤝 Contributing
+
+Read this [Contribution](CONTRIBUTION.md) to get idea about how to contribute.
+
+- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Any contributions you make are **greatly appreciated**.
+- Check out our contribution guidelines(yet to update) for more information.
+
     
 ## 🛠️ INSTALLATION
 1. Clone the repository
@@ -45,14 +53,6 @@ Welcome to the cutting-edge realm of SuperSpeechSaga, where we're reshaping the 
    ```
    pip install pyttsx3
    ```
-
-## 🤝 Contributing
-
-Read this [Contribution](CONTRIBUTION.md) to get idea about how to contribute.
-
-- Contributions make the open source community such an amazing place to learn, inspire, and create.
-- Any contributions you make are **greatly appreciated**.
-- Check out our contribution guidelines(yet to update) for more information.
 
   
 ## ✍️ Feedback and Support
