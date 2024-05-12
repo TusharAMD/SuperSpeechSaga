@@ -9,14 +9,19 @@ Please note we have a [code of conduct](CODE_OF_CONDUCT.md)  please follow it in
 
 <br>
 
-## 🔁 Ways to Contribute
+## 🔁 Ways to Contribute (!Important)
 
-There are several ways to contribute to our project:
-
-1. Reporting bugs or suggesting enhancements by opening issues.
-2. Fixing issues and submitting pull requests.
-3. Improving documentation.
-4. Providing feedback and suggestions.
+So by now you understood what this project is about but what exactly we would be doing in these 3 months?
+The goal of this repo is to create multiple games (we are not focused on one game but we would be making many small-big adventure games with their own stories)
+To acheive this task we need to follow these steps.
+1. Fork the repo
+2. Create a new folder (IMP) and start creating your gaming files
+3. Issues would be sub divided meaning, a game can be divided into sub parts, one issue for making prompts, one for creating gaming assets like characters and last one for creating actual game python file
+4. After doing your task make a pull request
+5. Make sure you do not change someone else file.
+6. Plagiarism is big no and doing so may result in lost of ranks and ban from repo.
+7. Based on efforts levels will be given
+8. If any issue contact me on tusharamd#5800 on discord
 
 <br>
 
