@@ -14,14 +14,20 @@ Welcome to the cutting-edge realm of SuperSpeechSaga, where we're reshaping the 
    </a>
 </p>
 
+
 ### Bring game characters to real life
 
 <p align = "center">
    <img src = "https://github.com/TusharAMD/SuperSpeechSaga/assets/59115865/873e6774-8f45-4b91-b78f-0b005938ce3e" alt = "Photo" />
 </p>
 
+## 👨🏻‍💻 Technology Used
+<p align="center">
+   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+</p>
 
-## INSTALLATION
+    
+## 🛠️ INSTALLATION
 1. Clone the repository
    ```
    git clone https://github.com/TusharAMD/SuperSpeechSaga
@@ -29,11 +35,28 @@ Welcome to the cutting-edge realm of SuperSpeechSaga, where we're reshaping the 
 2. Install the modules
    ```
    pip install pygame
+   ```
+   ```
    pip install speechrecognition
+   ```
+   ```
    pip install google-generativeai
+   ```
+   ```
    pip install pyttsx3
    ```
 
+## 🤝 Contributing
+
+- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Any contributions you make are **greatly appreciated**.
+- Check out our contribution guidelines(yet to update) for more information.
+
+  
+## ✍️ Feedback and Support
+If you encounter any issues with the SuperSpeechSaga or have any feedback or suggestions, please open an issue in the Issues section of this repository. We appreciate your feedback and will respond as soon as possible.
+
+
 ## Part of Girlscript Summer of Code 2024
-<img width="200px" src = https://i.ibb.co/gF9Pvd4/image.png](https://github.com/TusharAMD/SuperSpeechSaga/assets/59115865/3d3f4c6c-e933-456d-b95d-d342d275861f)></img>
+<p align = "center"><img width="200px" src = https://i.ibb.co/gF9Pvd4/image.png](https://github.com/TusharAMD/SuperSpeechSaga/assets/59115865/3d3f4c6c-e933-456d-b95d-d342d275861f)></img></p>
 
