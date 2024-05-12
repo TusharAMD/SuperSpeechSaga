@@ -48,6 +48,8 @@ Welcome to the cutting-edge realm of SuperSpeechSaga, where we're reshaping the 
 
 ## 🤝 Contributing
 
+Read this [Contribution](CONTRIBUTION.md) to get idea about how to contribute.
+
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **greatly appreciated**.
 - Check out our contribution guidelines(yet to update) for more information.
