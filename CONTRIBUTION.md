@@ -86,13 +86,12 @@ We expect all contributors to adhere to the following community guidelines:
 <br>
 
 ## Documentation 📑
-Document any significant changes or additions to the codebase.
-Provide clear and concise explanations of the functionality, usage, and any relevant considerations.
-Update the README.md file to reflect the changes made and provide instructions on how to use the project.
+- Document any significant changes or additions to the codebase.
+- Provide clear and concise explanations of the functionality, usage, and any relevant considerations.
 
 ## ✅ Code Reviews
-Be open to feedback and constructive criticism from other contributors.
-Participate in code reviews by reviewing and providing feedback.
+- Be open to feedback and constructive criticism from other contributors.
+- Participate in code reviews by reviewing and providing feedback.
 
 ## 🚀🚀Feature Requests
 - Suggest new features or improvements that you believe would enhance the project.
