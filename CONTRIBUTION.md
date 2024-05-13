@@ -85,4 +85,21 @@ We expect all contributors to adhere to the following community guidelines:
 
 <br>
 
+## Documentation 📑
+- Document any significant changes or additions to the codebase.
+- Provide clear and concise explanations of the functionality, usage, and any relevant considerations.
+
+## ✅ Code Reviews
+- Be open to feedback and constructive criticism from other contributors.
+- Participate in code reviews by reviewing and providing feedback.
+
+## 🚀🚀Feature Requests
+- Suggest new features or improvements that you believe would enhance the project.
+
+## ☘️ Spread the Word
+- Share your experience and the project with others.
+- Spread the word about the project on social media, developer forums, or any relevant community platforms.
+- Thank you for your valuable contribution and for being a part of the Clueless Community! Together, we can make a difference. 🚀
+
+
 ## **Happy Contributing 🔥** 
