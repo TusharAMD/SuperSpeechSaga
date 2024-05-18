@@ -8,6 +8,7 @@ import json
 import pyttsx3
 import threading
 import traceback
+import random
 
 # Initialize Pygame
 pygame.init()
@@ -70,6 +71,47 @@ check_point = pygame.image.load("assets/check_point.png")
 check_point_rect = check_point.get_rect()
 check_point_rect.x = 1100
 check_point_rect.y = 350
+
+# List of prompts for detective interrogation
+prompts = [
+    "Hello, I'm Detective John. Can you tell me your name and if you witnessed anything suspicious recently?",
+    "Could you confirm your role here? Are you one of the maids? We need to gather information about everyone present in the house.",
+    "I understand this might be frightening, but did you happen to notice anything out of the ordinary today? Any unfamiliar faces or unusual activities?",
+    "You're safe here. I need your cooperation to solve this. Did you see anyone acting suspiciously around the time of the theft?",
+    "I assure you, your safety is my priority. I need your help to catch the culprit. Please, don't hesitate to share anything you might know.",
+    "You're not alone in this. I'll do everything in my power to protect you. Can you describe anyone who might have been involved in the theft?",
+    "I understand you're scared, but remaining silent won't help anyone. Please, trust me and share what you saw. Your testimony could make all the difference.",
+    "Your testimony could be the missing piece we need to solve this case. Every detail you provide brings us closer to catching the thief.",
+    "I won't let anything happen to you. You're under my protection. Please, tell me if you saw anything that could help us catch the thief.",
+    "You're doing great. Just take your time. Can you share any details, no matter how small, that might help us catch the thief?",
+    "I understand your fear, but we can't let the thief get away with their crime. Your testimony could make all the difference in bringing them to justice.",
+    "I promise to do everything in my power to ensure justice is served. Your cooperation is vital to achieving that. Can you tell me what you saw?",
+    "This room is a safe space. You can trust me. Please, share anything you saw, even if you're unsure of its relevance.",
+    "I appreciate your bravery in coming forward. Your testimony is invaluable. Can you describe anyone you saw acting suspiciously today?",
+    "I'll wait as long as it takes for you to feel comfortable. Whenever you're ready, I'm here to listen to whatever you have to say.",
+    "You're not alone in this. We're a team, and together we can bring the culprit to justice. Please, share anything you remember about the theft.",
+    "Trust is essential in solving this case. I promise to protect you. Can you tell me if you saw anything that could help us identify the thief?",
+    "You're safe here. I won't let anything happen to you. Please, tell me if you saw anything suspicious leading up to the theft.",
+    "Your testimony could be the key to solving this case. Every detail you provide brings us closer to catching the thief.",
+    "Your safety is my priority. Anything you share with me will be kept confidential. Please, don't hesitate to tell me if you saw anything suspicious.",
+    "I understand you're scared, but staying silent won't help us catch the thief. Your testimony could be the breakthrough we need to solve this case.",
+    "Trust is essential in solving this case. I promise to protect you. Can you tell me if you saw anything that could help us identify the thief?",
+    "We can't solve this case without your help. Please, tell me if you witnessed anything that could help us identify the thief.",
+    "I need your help to solve this case. Together, we can ensure the thief is apprehended and the stolen items are recovered. Please, share anything you know.",
+    "Your testimony could be the missing piece we need to solve this case. Every detail you provide brings us closer to catching the thief.",
+    "I assure you, your safety is my priority. I need your help to catch the culprit. Please, don't hesitate to share anything you might know.",
+    "You're not alone in this. We're a team, and together we can bring the culprit to justice. Please, share anything you remember about the theft.",
+    "Your testimony could be the key to solving this case. Every detail you provide brings us closer to catching the thief.",
+    "I understand your fear, but we can't let the thief get away with their crime. Your testimony could make all the difference in bringing them to justice.",
+    "I promise to do everything in my power to ensure justice is served. Your cooperation is vital to achieving that. Can you tell me what you saw?",
+    "Trust is essential in solving this case. I promise to protect you. Can you tell me if you saw anything that could help us identify the thief?",
+    "You're safe here. I won't let anything happen to you. Please, tell me if you saw anything suspicious leading up to the theft.",
+    "Your safety is my priority. Anything you share with me will be kept confidential. Please, don't hesitate to tell me if you saw anything suspicious.",
+    "I understand you're scared, but staying silent won't help us catch the thief. Your testimony could be the breakthrough we need to solve this case.",
+]
+
+def get_random_prompt():
+    return random.choice(prompts)
 
 
 
