@@ -6,6 +6,8 @@
    <img src = "https://github.com/TusharAMD/SuperSpeechSaga/assets/59115865/873e6774-8f45-4b91-b78f-0b005938ce3e" alt = "Photo" />
 </p>
 
+## UPDATE!
+Refer this video to get started https://youtu.be/LNhhnlQU5Rk
 
 ## 📖 Introduction 
 Welcome to the cutting-edge realm of SuperSpeechSaga, where we're reshaping the landscape of gaming through real-time dialogue generation. Step into a world where your voice shapes the story, where every decision you make influences the dialogue and narrative unfolding around you. Our mission is simple yet groundbreaking: to redefine player engagement by offering an ever-evolving, personalized experience. Get ready to embark on an adventure where your voice isn't just heard—it changes the very fabric of the game world. Embrace the future of interactive storytelling with us!
