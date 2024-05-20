@@ -1,0 +1,8 @@
+Level 1 bot
+
+Please create a response dialog for a bot that controls a security area and has a key but they want us to finish a task and in return they would give a key
+main character says "hi, how to unlock the door, where can I find a key"
+return a single dialog in json format dialog:""
+
+Level 3 Boss
+
