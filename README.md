@@ -56,9 +56,9 @@ Read the [Contribution](CONTRIBUTION.md) to get more idea about how to contribut
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **greatly appreciated**.
-- Check out our contribution guidelines for more information.
+- Check out our [Contribution guidelines]https://github.com/TusharAMD/SuperSpeechSaga/blob/master/CONTRIBUTION.md for more information.
 
-    
+   
 ## 🛠️ INSTALLATION
 1. Clone the repository
    ```
