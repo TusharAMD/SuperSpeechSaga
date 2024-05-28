@@ -1,0 +1,4 @@
+pygame
+speechrecognition
+google-generativeai
+pyttsx3
