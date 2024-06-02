@@ -22,15 +22,15 @@ model = genai.GenerativeModel('gemini-pro')
 screen_width = 1300
 screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
-bg_img = pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/background.jpg")
+bg_img = pygame.image.load("background.jpg")
 bg_img = pygame.transform.scale(bg_img, (int(bg_img.get_width() * (screen_height / bg_img.get_height())), screen_height))
 rep = math.ceil(screen_width / bg_img.get_width())
 
 pygame.display.set_caption("superspeechsaga")
 
 player_image = [
-    pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/character/sprite_0.png"),
-    pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/character/sprite_1.png")
+    pygame.image.load("character/sprite_0.png"),
+    pygame.image.load("character/sprite_1.png")
 ]
 player_rect = player_image[0].get_rect()
 player_rect.x = 50
@@ -42,8 +42,8 @@ MAX_HEIGHT = 25  # Maximum height the player can reach when jumping
 font = pygame.font.Font(None, 24)
 
 villager_image = [
-    pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/side_character1/sprite_0.png"),
-    pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/side_character1/sprite_1.png")
+    pygame.image.load("side_character1/sprite_0.png"),
+    pygame.image.load("side_character1/sprite_1.png")
 ]
 villager_rect = villager_image[0].get_rect()
 villager_rect.x = 500
@@ -51,7 +51,7 @@ villager_rect.y = 350
 villager_text = "Villager 1 says: Hi"
 villager_text_surface = font.render(villager_text, True, (255, 255, 255))
 
-villager2_image = [pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/side_character1/sprite_1.png")]
+villager2_image = [pygame.image.load("side_character1/sprite_1.png")]
 villager2_rect = villager2_image[0].get_rect()
 villager2_rect.x = 750
 villager2_rect.y = 295
@@ -59,7 +59,7 @@ villager2_text = "Villager 2 says: Hi"
 villager2_text_surface = font.render(villager2_text, True, (255, 255, 255))
 
 font2 = pygame.font.Font(None, 16)
-villager3_image = [pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/side_character1/sprite_2.png")]
+villager3_image = [pygame.image.load("side_character1/sprite_2.png")]
 villager3_rect = villager3_image[0].get_rect()
 villager3_rect.x = 150
 villager3_rect.y = 295
@@ -67,12 +67,12 @@ villager3_text = "About the game"
 villager3_text_surface = font2.render(villager3_text, True, (255, 255, 255))
 
 info_image = [
-    pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/assets/info.png"),
-    pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/assets/info_complete.png")
+    pygame.image.load("assets/info.png"),
+    pygame.image.load("assets/info_complete.png")
 ]
 info_image_rect = info_image[0].get_rect()
 
-check_point = pygame.image.load("D:/GSSOC 24/SuperSpeechSaga-master/The Prototype/assets/check_point.png")
+check_point = pygame.image.load("assets/check_point.png")
 check_point_rect = check_point.get_rect()
 check_point_rect.x = 1100
 check_point_rect.y = 350
