@@ -78,7 +78,7 @@ Read the [Contribution](CONTRIBUTION.md) to get more idea about how to contribut
    ```
    pip install pyttsx3
    ```
-<a href="#top" style="text-decoration: none; color: white; background-color: #007BFF; padding: 5px 10px; border-radius: 5px;">Back to Top</a>
+
   
 ## ✍️ Feedback and Support
 If you encounter any issues with the SuperSpeechSaga or have any feedback or suggestions, please open an issue in the Issues section of this repository. We appreciate your feedback and will respond as soon as possible.
@@ -88,4 +88,10 @@ If you encounter any issues with the SuperSpeechSaga or have any feedback or sug
 <p align = "center"><img width="200px" src = https://i.ibb.co/gF9Pvd4/image.png](https://github.com/TusharAMD/SuperSpeechSaga/assets/59115865/3d3f4c6c-e933-456d-b95d-d342d275861f)></img></p>
 
 Embark on a journey where your voice brings game characters to life, and every decision shapes your adventure. Welcome to SuperSpeechSaga! 🌟🎮🗣️
+
+<p align="right">
+<a href="#top" style="text-decoration: none; color: white; background-color: #007BFF; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+   <img src="https://img.shields.io/badge/⬆️ Back To Top-3670A0?style=for-the-badge" alt="Top" /></a>
+</p>
+
 
