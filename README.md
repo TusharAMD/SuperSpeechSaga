@@ -80,16 +80,7 @@ Read the [Contribution](CONTRIBUTION.md) to get more idea about how to contribut
    ```
 
   
-## ✍️ Feedback and Support
-If you encounter any issues with the SuperSpeechSaga or have any feedback or suggestions, please open an issue in the Issues section of this repository. We appreciate your feedback and will respond as soon as possible.
 
-
-<!-- Code of conduct -->
-<div>
-<h2><img src = "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="35" height="35"> Code of Conduct</h2>
-</div>
-
-Please note that this project is released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ## 🎊 Part of Girlscript Summer of Code 2024
 <p align = "center"><img width="200px" src = https://i.ibb.co/gF9Pvd4/image.png](https://github.com/TusharAMD/SuperSpeechSaga/assets/59115865/3d3f4c6c-e933-456d-b95d-d342d275861f)></img></p>
@@ -108,11 +99,8 @@ Thanks to all contributors for helping this project grow! 🍻
   <img src="https://contrib.rocks/image?repo=TusharAMD/SuperSpeechSaga" />
 </a>
 
-<hr>
-
-<div>
-  <h2><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f64f_1f3fb/512.webp" width="35" height="35"> Support </h2>
-</div>
+## ✍️ Feedback & Support
+If you encounter any issues with the SuperSpeechSaga or have any feedback or suggestions, please open an issue in the Issues section of this repository. We appreciate your feedback and will respond as soon as possible.
 
 <div>
   Don't forget to leave a star<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" width="35" height="30"> for this project!
