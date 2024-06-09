@@ -1,3 +1,4 @@
+<a name="top"></a>
 #  Welcome to Super Speech Saga 🎮
 
 ### Bring game characters to real life🌟
@@ -79,12 +80,34 @@ Read the [Contribution](CONTRIBUTION.md) to get more idea about how to contribut
    ```
 
   
-## ✍️ Feedback and Support
-If you encounter any issues with the SuperSpeechSaga or have any feedback or suggestions, please open an issue in the Issues section of this repository. We appreciate your feedback and will respond as soon as possible.
 
 
-## Part of Girlscript Summer of Code 2024
+## 🎊 Part of Girlscript Summer of Code 2024
 <p align = "center"><img width="200px" src = https://i.ibb.co/gF9Pvd4/image.png](https://github.com/TusharAMD/SuperSpeechSaga/assets/59115865/3d3f4c6c-e933-456d-b95d-d342d275861f)></img></p>
 
 Embark on a journey where your voice brings game characters to life, and every decision shapes your adventure. Welcome to SuperSpeechSaga! 🌟🎮🗣️
+
+
+ <!-- Contributors -->
+<div>
+  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" width="35" height="35"> Contributors</h2>
+</div>
+
+Thanks to all contributors for helping this project grow! 🍻
+
+<a href="https://github.com/TusharAMD/SuperSpeechSaga/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TusharAMD/SuperSpeechSaga" />
+</a>
+
+## ✍️ Feedback & Support
+If you encounter any issues with the SuperSpeechSaga or have any feedback or suggestions, please open an issue in the Issues section of this repository. We appreciate your feedback and will respond as soon as possible.
+
+<div>
+  Don't forget to leave a star<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" width="35" height="30"> for this project!
+</div>
+
+<p align="right">
+<a href="#top" style="text-decoration: none; color: white; background-color: #007BFF; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+   <img src="https://img.shields.io/badge/⬆️ Back To Top-3670A0?style=for-the-badge" alt="Top" /></a>
+</p>
 
