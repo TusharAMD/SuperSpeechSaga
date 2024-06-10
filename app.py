@@ -74,19 +74,18 @@ check_point_rect.y = 350
 
 
 def perform_speech(prompt, villager):
-
     global villager_text
     global villager2_text
     global villager3_text
     global e_not_yet_pressed
     global e_not_yet_pressed2
 
-    if villager==0:
-        villager_text=f"..."
-    elif villager==1:
-        villager2_text=f"..."
-    elif villager==2:
-        villager3_text=f"..."
+    if villager == 0:
+        villager_text = "..."
+    elif villager == 1:
+        villager2_text = "..."
+    elif villager == 2:
+        villager3_text = "..."
 
     try:
         # Gemini
@@ -95,34 +94,36 @@ def perform_speech(prompt, villager):
 
         res_text = response.text
 
-        if "json" in res_text:
-            res_text = res_text.split("```")[1]
-            res_text = res_text.split("json")[1]
-
-        dialog = json.loads(res_text)["dialog"]
+        # Parse the JSON directly
+        response_json = json.loads(res_text)
+        dialog = response_json["dialog"]
 
         print(dialog)
 
-        if villager==0:
-            villager_text=f"Villager 1 says: {dialog}"
-        elif villager==1:
-            villager2_text=f"Villager 2 says: {dialog}"
-        elif villager==2:
-            villager3_text=f"Villager 3 says: {dialog}"
+        if villager == 0:
+            villager_text = f"Villager 1 says: {dialog}"
+        elif villager == 1:
+            villager2_text = f"Villager 2 says: {dialog}"
+        elif villager == 2:
+            villager3_text = f"Villager 3 says: {dialog}"
 
         # Pyttsx3
         engine = pyttsx3.init()
         voices = engine.getProperty('voices')
-        engine.setProperty('voice', voices[villager%2].id)
+        engine.setProperty('voice', voices[villager % 2].id)
         print(dialog)
         engine.say(dialog)
         engine.runAndWait()
     except Exception as e:
-        traceback.print_exc() 
-        if villager==0:
+        traceback.print_exc()
+        if villager == 0:
             e_not_yet_pressed = True
         else:
             e_not_yet_pressed = True
+
+
+
+
     
 
 def fall(player_rect):
