@@ -10,6 +10,21 @@
 ## UPDATE!
 Refer this video to get started [Super Speech Saga](https://youtu.be/LNhhnlQU5Rk)
 
+##  🏆 Featured in
+<table>
+    <tr>
+      <th>Event Logo</th>
+      <th>Event Name</th>
+      <th>Event Description</th>
+    </tr>
+    <tr>
+        <td><img src="https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only" width="200" height="auto" loading="lazy" alt="GSSoC 24"/></td>
+        <td>GirlScript Summer of Code 2024</td>
+        <td>GirlScript Summer of Code is a three-month-long Open Source Program conducted every summer by GirlScript Foundation. It is an initiative to bring more beginners to Open-Source Software Development. 
+    </tr>
+</table>
+
+
 ## 📖 Introduction 
 Welcome to the cutting-edge realm of SuperSpeechSaga, where we're reshaping the landscape of gaming through real-time dialogue generation. Step into a world where your voice shapes the story, where every decision you make influences the dialogue and narrative unfolding around you. Our mission is simple yet groundbreaking: to redefine player engagement by offering an ever-evolving, personalized experience. Get ready to embark on an adventure where your voice isn't just heard—it changes the very fabric of the game world. Embrace the future of interactive storytelling with us!
 <p align = "center">
