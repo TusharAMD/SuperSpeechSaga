@@ -142,7 +142,7 @@ class Combat:
         weapon_bonus = self.player.equipped_weapon.damage if self.player.equipped_weapon else 0
         
         if action == "evade":
-            success = random.random() < 0.6 + (self.player.skills["Mental Fortitude"] * 0.05)
+            success = random.random() < 0.9 + (self.player.skills["Mental Fortitude"] * 0.05)
             self.animations.append(CombatAnimation(start_pos, end_pos, BLUE))
             if success:
                 self.enemy.health -= 10 + weapon_bonus
@@ -151,7 +151,7 @@ class Combat:
                 self.player.sanity -= 5
                 result = f"Evasion failed. The {self.enemy.name}'s presence shatters your perception of reality."
         elif action == "confront":
-            success = random.random() < 0.4 + (self.player.skills["Occult Knowledge"] * 0.05)
+            success = random.random() < 0.7 + (self.player.skills["Occult Knowledge"] * 0.05)
             self.animations.append(CombatAnimation(start_pos, end_pos, RED))
             if success:
                 self.enemy.health -= 20 + weapon_bonus
@@ -233,7 +233,7 @@ class Chest:
     def draw(self, player):
         screen.blit(self.image, self.rect)
         if not self.opened and self.rect.colliderect(player.rect.inflate(50, 50)):
-            prompt = SMALL_FONT.render("Press SPACE to open", True, WHITE)
+            prompt = SMALL_FONT.render("Click to open", True, WHITE)
             screen.blit(prompt, (self.rect.x, self.rect.y + 50))
 
     def open(self):
@@ -281,40 +281,42 @@ class CosmicShadows:
         ]
         self.dialogue_system = DialogueSystem()
         self.chests = [Chest(200, 200), Chest(600, 400)]
+        self.combat_chance = 0.001  # Reduced from 0.005 to 0.001 for less frequent combat
 
     def handle_events(self):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return False
-            if event.type == pygame.KEYDOWN:
+            if event.type == pygame.MOUSEBUTTONDOWN:
                 if self.combat.is_active:
-                    if event.key == pygame.K_e:
+                    if event.button == 1:  # Left click
                         self.message = self.combat.resolve("evade")
                         self.message_timer = 3
-                    elif event.key == pygame.K_c:
+                    elif event.button == 3:  # Right click
                         self.message = self.combat.resolve("confront")
                         self.message_timer = 3
-                elif event.key == pygame.K_SPACE:
-                    for chest in self.chests:
-                        if chest.rect.colliderect(self.player.rect.inflate(50, 50)):
-                            item = chest.open()
-                            if item:
-                                self.player.add_to_inventory(item)
-                                self.message = f"You found a {item.name}!"
-                                self.message_timer = 3
-                elif event.key == pygame.K_i:
+                else:
+                    if event.button == 1:  # Left click
+                        for npc in self.npcs:
+                            if npc.rect.collidepoint(event.pos):
+                                self.dialogue_system.start_dialogue(npc.get_dialogue(self.player.sanity))
+                        for chest in self.chests:
+                            if chest.rect.collidepoint(event.pos) and chest.rect.colliderect(self.player.rect.inflate(50, 50)):
+                                item = chest.open()
+                                if item:
+                                    self.player.add_to_inventory(item)
+                                    self.message = f"You found a {item.name}!"
+                                    self.message_timer = 3
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_i:
                     self.show_inventory()
                 elif pygame.K_1 <= event.key <= pygame.K_9:
                     index = event.key - pygame.K_1
                     if index < len(self.player.inventory):
                         self.player.use_item(self.player.inventory[index])
-            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-                if self.dialogue_system.active:
-                    self.dialogue_system.next_dialogue()
-                else:
-                    for npc in self.npcs:
-                        if npc.rect.collidepoint(event.pos):
-                            self.dialogue_system.start_dialogue(npc.get_dialogue(self.player.sanity))
+                elif event.key == pygame.K_SPACE:
+                    if self.dialogue_system.active:
+                        self.dialogue_system.next_dialogue()
         return True
 
     def update(self, dt):
@@ -336,7 +338,8 @@ class CosmicShadows:
         if self.message_timer > 0:
             self.message_timer -= dt
 
-        if random.random() < 0.005 and not self.combat.is_active:
+        
+        if random.random() < self.combat_chance and not self.combat.is_active:
             self.combat.start_combat()
 
         return True
@@ -367,7 +370,7 @@ class CosmicShadows:
             screen.blit(skill_text, (WIDTH - skill_text.get_width() - 10, 40 + i * 20))
 
         if self.combat.is_active:
-            combat_text = FONT.render(f"A {self.combat.enemy.name} appears! (E)vade or (C)onfront", True, RED)
+            combat_text = FONT.render(f"A {self.combat.enemy.name} appears! Left click to Evade, Right click to Confront", True, RED)
             screen.blit(combat_text, (WIDTH // 2 - combat_text.get_width() // 2, 50))
 
         if self.message_timer > 0:
@@ -424,4 +427,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
